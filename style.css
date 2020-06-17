@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: black;
 }
 
 h1 {
@@ -8,12 +8,33 @@ h1 {
 }
 
 p {
-  font-family: verdana;
+text-align: justify;
+text-justify: inter-word;
+  font-family: century;
   font-size: 20px;
+	color: white;
+width: 300px;
+}
+
+p1 {
+text-align: center;
+  font-family: arial;
+  font-size: 10px;
+	color: yellow;
+width: 400px;
 }
 
 .book-img {
+	
+	display: block;
 
 	width: 300px;
+	margin: auto 0;
 	
+}
+
+.flex-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
