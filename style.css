@@ -19,7 +19,7 @@ width: 300px;
 p1 {
 text-align: center;
   font-family: arial;
-  font-size: 10px;
+  font-size: 30px;
 	color: yellow;
 width: 400px;
 }
@@ -31,6 +31,25 @@ width: 400px;
 	width: 300px;
 	margin: auto 0;
 	
+}
+
+a:link {
+  color: yellow;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
 
 .flex-center {
